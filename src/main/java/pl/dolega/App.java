@@ -1,6 +1,5 @@
 package pl.dolega;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
 /**
@@ -17,7 +16,7 @@ public class App
         BigInteger b = BigInteger.valueOf(2);
 
         System.out.println(calculator.addition(a, b));
-        System.out.println(calculator.substraction(a, b));
+        System.out.println(calculator.subtraction(a, b));
         System.out.println(calculator.multiplication(a, b));
         System.out.println(calculator.division(a, b));
 

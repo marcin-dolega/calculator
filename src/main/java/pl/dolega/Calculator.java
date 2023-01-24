@@ -9,7 +9,7 @@ public class Calculator {
         return a.add(b);
     }
 
-    public BigInteger substraction(BigInteger a, BigInteger b) {
+    public BigInteger subtraction(BigInteger a, BigInteger b) {
         return a.subtract(b);
     }
 
