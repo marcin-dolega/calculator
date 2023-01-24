@@ -1,5 +1,8 @@
 package pl.dolega;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 /**
  * Hello world!
  *
@@ -10,10 +13,13 @@ public class App
 
         Calculator calculator = new Calculator();
 
-        calculator.addition(3, 2);
-        calculator.substraction(3, 2);
-        calculator.multiplication(3, 2);
-        System.out.println(calculator.division(3, 2));
+        BigInteger a = BigInteger.valueOf(3);
+        BigInteger b = BigInteger.valueOf(2);
+
+        System.out.println(calculator.addition(a, b));
+        System.out.println(calculator.substraction(a, b));
+        System.out.println(calculator.multiplication(a, b));
+        System.out.println(calculator.division(a, b));
 
     }
 }

@@ -1,20 +1,23 @@
 package pl.dolega;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 public class Calculator {
 
-    public int addition(int a, int b) {
-        return a + b;
+    public BigInteger addition(BigInteger a, BigInteger b) {
+        return a.add(b);
     }
 
-    public int substraction(int a, int b) {
-        return a - b;
+    public BigInteger substraction(BigInteger a, BigInteger b) {
+        return a.subtract(b);
     }
 
-    public int multiplication(int a, int b) {
-        return a  * b;
+    public BigInteger multiplication(BigInteger a, BigInteger b) {
+        return a.multiply(b);
     }
 
-    public double division(double a, double b) {
-        return a / b;
+    public BigDecimal division(BigInteger a, BigInteger b) {
+        return new BigDecimal(a).divide(new BigDecimal(b));
     }
 }
