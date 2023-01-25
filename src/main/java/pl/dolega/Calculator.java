@@ -18,7 +18,6 @@ public class Calculator {
     }
 
     public BigDecimal division(BigInteger a, BigInteger b) {
-        System.out.println("bla");
         return new BigDecimal(a).divide(new BigDecimal(b));
     }
 }
