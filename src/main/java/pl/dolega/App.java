@@ -20,5 +20,6 @@ public class App
         System.out.println(calculator.multiplication(a, b));
         System.out.println(calculator.division(a, b));
 
+        System.out.println("SCM Poll test");
     }
 }
